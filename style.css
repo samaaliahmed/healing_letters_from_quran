@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e97d7d;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(205, 178, 178);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #6c5b3b;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    background-color: #f9b5b5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #f79c8e;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #journey-content {
+    margin-top: 20px;
+  }
+  
+  #images-container {
+    margin-top: 20px;
+  }
+  
+  .image {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+  }
+  
+  #final-message {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+  
+  #bg-music {
+    display: none;
+  }
+  
